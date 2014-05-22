@@ -35,6 +35,7 @@
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
+    <Content Include="data\accounts.json" />
     <Content Include="index.html" />
     <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
@@ -74,9 +75,11 @@
     <Content Include="kendo\styles\images\kendoui.woff" />
     <Content Include="kendo\styles\images\wp8_icons.png" />
     <Content Include="kendo\styles\images\wp8_inverseicons.png" />
+    <Content Include="scripts\account.js" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\location.js" />
     <Content Include="scripts\login.js" />
+    <Content Include="scripts\ubh-custom.js" />
     <Content Include="scripts\weather.js" />
     <Content Include="styles\main.css" />
     <Content Include="styles\images\appbuilder.png" />
@@ -93,6 +96,27 @@
     <Content Include="styles\images\search_active2x.png" />
     <Content Include="styles\images\sprite-weather.png" />
     <Content Include="styles\images\sprite-weather2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="data\" />
+    <Folder Include="kendo\" />
+    <Folder Include="kendo\js\" />
+    <Folder Include="kendo\styles\" />
+    <Folder Include="kendo\styles\images\" />
+    <Folder Include="Plugins\" />
+    <Folder Include="scripts\" />
+    <Folder Include="styles\" />
+    <Folder Include="styles\images\" />
   </ItemGroup>
   <Import Project="$(IceniumTargets)Build.targets" />
   <!--
